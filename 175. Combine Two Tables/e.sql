@@ -1,0 +1,1 @@
+SELECT P.lastName, P.firstName, A.city, A.state FROM Person P LEFT JOIN  Address A ON A.personId = P.personId
