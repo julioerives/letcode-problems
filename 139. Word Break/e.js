@@ -9,7 +9,6 @@ var wordBreak = function(s, wordDict) {
         }
         cadena =s.replace(wordDict[index],"")
     }
-    console.log(cadena)
     return bool
 };
-console.log(wordBreak("applepenapple",["apple","pen"]))
+console.log(wordBreak("bb",["a","b","bbb","bbbb"]))
